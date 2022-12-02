@@ -1,0 +1,130 @@
+.buttons-1 {
+  border: 4px;
+}
+
+.col-one {
+  width: 66%;
+}
+.col-two {
+  width: 34%;
+  height: 100%;
+}
+
+.col-one-img {
+  width: 100%;
+}
+
+.rem-one {
+  margin: 1rem;
+}
+
+.col-one > div {
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 3px gray;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.container-footer > button {
+  background: none;
+  padding: 1rem 2rem;
+  border: 1px solid gray;
+  font-size: large;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Raleway', sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.padding {
+  padding: 0.5rem;
+}
+
+.no-margin {
+  margin: 0%;
+}
+.black-bg {
+  background-color: black;
+  color: white;
+  padding: 4px;
+}
+
+.container-footer > button:hover {
+  background-color: gray;
+}
+
+.container-footer > div {
+  padding: 1rem 3rem;
+}
+
+.container-footer > div > span {
+  color: white;
+  background-color: black;
+  padding: 2px 8px;
+}
+
+.col-two > div {
+  border-radius: 3px;
+  box-shadow: 0px 0px 15px grey
+}
+.col-two-img {
+  width:100%;
+}
+
+.popular {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.popular > li {
+  border-bottom: 1px grey ;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  box-shadow: 0px 0px 2px grey;
+  cursor: pointer;
+}
+
+.popular > li:hover {
+  background-color:grey;
+}
+  
+.popular > li > div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.popular > li > img {
+  width: 50px;
+  height: 50px;
+}
+
+.popular-posts-container > header {
+  background-color: whitesmoke;
+  border-radius:5px;
+  padding: 2rem;
+  padding-left:1rem;
+  font-size:x-large;
+}
